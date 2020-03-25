@@ -340,12 +340,24 @@
                 
               
 
-              <time title="创建时间：2020-03-12 21:17:38 / 修改时间：23:27:44" itemprop="dateCreated datePublished" datetime="2020-03-12T21:17:38+08:00">2020-03-12</time>
+              <time title="创建时间：2020-03-12 21:17:38" itemprop="dateCreated datePublished" datetime="2020-03-12T21:17:38+08:00">2020-03-12</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2020-03-25 16:51:55" itemprop="dateModified" datetime="2020-03-25T16:51:55+08:00">2020-03-25</time>
               
             
           </span>
@@ -380,9 +392,17 @@
       
         
           
-            <h1 id="matlab指令总结"><a href="#matlab指令总结" class="headerlink" title="matlab指令总结"></a>matlab指令总结</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>最初，我了解到matlab是由于参加数学建模竞赛的时候，在这学期的自动控制原理、信号与系统课程的时候会用到，所以原本我准备在上学的时候穿插着学一下matlab。但是在“传感器及检测技术”课程中，老师布置的作业里有一条需要使用matlab线性拟合，所以我就在寒假顺便把matlab看了一遍。<br>我看了一本书–《matlab揭秘》郑碧波译，由于matlab本身是一个工具，所以指令有点多，不易记忆，所以，我准备写一个blog来记录一样，顺便总结一下，方便以后用的时候查询。<br>前提说明一下，下面顺序和思路，都是仿照上面那本书所写，如果想学matlab可以自己看书学习，这里只是总结。由于markdown里面”&gt;&gt;”这个符号代表引用，所以，matlab命令前面的这个符号我都省略了。</p>
-<h2 id="指令"><a href="#指令" class="headerlink" title="指令"></a>指令</h2><h3 id="MATLAB环境"><a href="#MATLAB环境" class="headerlink" title="MATLAB环境"></a>MATLAB环境</h3><p>###命令窗口与算法基础<br>1 命令在”&gt;&gt;”提示符后面输入<br>2 如果未定义变量名，默认为ans</p>
-<p>‘’’<br>y=4.12*5<br>‘’’</p>
+            <h1 id="matlab指令总结"><a href="#matlab指令总结" class="headerlink" title="matlab指令总结"></a>matlab指令总结</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>&emsp;&emsp;最初，我了解到matlab是由于参加数学建模竞赛的时候，在这学期的自动控制原理、信号与系统课程的时候会用到，所以原本我准备在上学的时候穿插着学一下matlab。但是在“传感器及检测技术”课程中，老师布置的作业里有一条需要使用matlab线性拟合，所以我就在寒假顺便把matlab看了一遍。<br>&emsp;&emsp;我看了一本书–《matlab揭秘》郑碧波译，由于matlab本身是一个工具，所以指令有点多，不易记忆，所以，我准备写一个blog来记录一样，顺便总结一下，方便以后用的时候查询。<br>&emsp;&emsp;前提说明一下，下面顺序和思路，都是仿照上面那本书所写，如果想学matlab可以自己看书学习，这里只是总结。由于markdown里面”&gt;&gt;”这个符号代表引用，所以，matlab命令前面的这个符号我都省略了。</p>
+<h2 id="指令"><a href="#指令" class="headerlink" title="指令"></a>指令</h2><h3 id="MATLAB环境"><a href="#MATLAB环境" class="headerlink" title="MATLAB环境"></a>MATLAB环境</h3><h3 id="命令窗口与算法基础"><a href="#命令窗口与算法基础" class="headerlink" title="命令窗口与算法基础"></a>命令窗口与算法基础</h3><p>1 命令在”&gt;&gt;”提示符后面输入<br>2 如果未定义变量名，默认为ans</p>
+<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;<span class="number">4.12</span>*<span class="number">5</span></span><br></pre></td></tr></table></figure>
+
+<p>3 matlab输入基本算法：</p>
+<p> 两数相除，右除a/b，左除a\b=b/a</p>
+<p> 幂，a^b</p>
+<p>相加，a+b</p>
+<p>相减，a-b</p>
+<p>4 赋值运算符</p>
+<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;x=<span class="number">34</span>^<span class="number">2</span>;</span><br><span class="line">&gt;&gt;x=x+<span class="number">4</span></span><br><span class="line">x=</span><br><span class="line">    <span class="number">1160</span></span><br></pre></td></tr></table></figure>
 
           
         
